@@ -1,6 +1,6 @@
 'use strict';
 
-const citizenTransactions = require('./lib/citizenTransactions');
+const blockchainTransactions = require('./lib/blockchainTransactions');
 
-module.exports.citizenTransactions = citizenTransactions;
-module.exports.contracts = [citizenTransactions];
+module.exports.blockchainTransactions = blockchainTransactions;
+module.exports.contracts = [blockchainTransactions];
